@@ -11,7 +11,6 @@
 ;;;;	Vectors	    ;;;;
     
     org 0x0000		    ;Reset vector
-    nop
     goto Init
     
 ;;;;	Mainline program    ;;;;
