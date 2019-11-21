@@ -32,7 +32,9 @@ Init:
     
 Mainloop:
 
-    
+    lfsr FSR0, DATA_START
+    lfsr FSR1, DEST_START
+    ;;TODO
     
     goto Mainloop
     

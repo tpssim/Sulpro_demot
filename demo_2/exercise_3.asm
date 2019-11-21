@@ -2,8 +2,6 @@
 ;Leds should show how many times button has been pressed(in binary)
     
     #include P18F452.inc
-    
-    #define counter 0x0A
 
 ;;;;	Vectors	    ;;;;
     
